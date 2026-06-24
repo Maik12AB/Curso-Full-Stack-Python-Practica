@@ -60,4 +60,16 @@ print(f"El tipo de dato es: {type(lenguajes)}")
 
 lista_duplicada = [1,2,3,4,1,6,1]
 print(set(lista_duplicada))
+
+
 # Diccionarios
+titulo = "Diccionarios(dict)"
+print(titulo)
+print("-"* len(titulo))
+estudiante = {
+    "Nombre":"Maikol",
+    "Edad" : "25",
+    "Curso" : "Python"
+}
+print (estudiante)
+print(f"El tipo de dato es: {type(estudiante)}")
