@@ -34,3 +34,15 @@ print(lista_puntos)
 
 lista_puntos.insert(-2,"*")
 print(lista_puntos)
+
+
+print()
+print("Método pop()")
+print("---------------")
+
+print(colores)
+
+color_eliminado=colores.pop(2)
+
+print('lista', colores)
+print(f"color eliminado: {color_eliminado}")
