@@ -81,3 +81,16 @@ print("----------------------------------------")
 #Comportamiento similar a 'keys'
 valores = diccionario.values()
 print(valores)
+
+print()
+print("Metodo 'items()'")
+print("----------------------------------------")
+
+#comportamiento similar a keys() y values()
+#Regresa una tupla
+
+lista = diccionario.items()
+print(lista)
+
+for clave,valor in diccionario.items():
+    print(f"-{clave}:{valor}")
