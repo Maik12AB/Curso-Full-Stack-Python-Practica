@@ -46,3 +46,44 @@ color_eliminado=colores.pop(2)
 
 print('lista', colores)
 print(f"color eliminado: {color_eliminado}")
+
+
+print()
+print("Método remove()")
+print("---------------")
+# Recibe el valor a eliminar
+# Elimina la primer ocurrencia
+
+numeros = [100,400,50,200,50,300]
+numero_eliminado=numeros.remove(50)
+
+print('lista', numeros)
+
+print()
+print("Método sort() y reverse()")
+print("---------------")
+# Ordena una lista en orden ascendente
+# Modifica la las posiciones de la lista, cuidado
+
+# Reverse invierte el orden actual
+numeros.reverse()
+print("Lista orden cambiado", numeros)
+
+numeros.sort()
+print("lista ordenada[asc]",numeros)
+
+#ordena una lista en orden descendente
+numeros.sort(reverse=True)
+
+print("lista ordenada[desc]",numeros)
+
+
+print()
+print("Funcion sorted()")
+print("---------------")
+
+numeros_aux = [100,400,50,200,50,300]
+lista_ordenada = sorted(numeros_aux)
+
+print("Lista original", numeros_aux)
+print("Lista ordenada", lista_ordenada)
