@@ -1,6 +1,6 @@
-def sumar(x: int | float, y: int | float):
+def restar(x: int |float, y: int | float):
     """
-    fx que suma dos numeros
+    fx que resta dos numeros
     """
     #Al quitar el print de la funcion, la funcion cumple con una unica responsabilidad
-    return x + y
+    return x - y
