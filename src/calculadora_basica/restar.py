@@ -1,4 +1,4 @@
-def restar(x: int |float, y: int | float):
+def restar(x: int |float | str, y: int | float | str):
     """
     fx que resta dos numeros
     """
