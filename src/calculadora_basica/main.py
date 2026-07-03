@@ -1,5 +1,4 @@
-def sumar(x,y):
-    print(f"El resultado de la suma es: {x + y}")
+import sumar
 
 def restar(x,y):
     print(f"El resultado de la resta es: {x - y}")
@@ -18,10 +17,11 @@ print("0. Salir")
 
 opcion = input("> ")
 #Realizamos esta refactorizacion para tener un solo punto de ingreso de datos
+#Mas adelante vamos a cambiar la funcion de tomar_datos()
 if opcion in ("1","2"):
     x, y = tomar_datos()
     if opcion =="1":
-        sumar(x,y)
+        sumar.sumar(x,y)
     elif opcion =="2":
         restar(x,y)
 elif opcion =="0":
